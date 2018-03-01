@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TurtleStart"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="350" Width="180" ResizeMode="CanMinimize" WindowStyle="None" Background="Transparent" Foreground="Black" Visibility="Visible"
+        AllowsTransparency="True">
+    <Border BorderBrush="#FF58D3F7" BorderThickness="1" CornerRadius="12" Background="#FF1A1A1A">
+        <StackPanel>
+            <Border Height="24" CornerRadius="12,12,0,0" Background="#FF1A1A1D">
+                <Label HorizontalAlignment="Left" FontSize="12" Foreground="#FFD5D5D5">龟速启动</Label>
+            </Border>
+            <Expander Header="编程工具" Background="#FF101011" Foreground="#FF917E5D" Style="{DynamicResource ExpanderStyleLvl1}" FontSize="12">
+                <WrapPanel Background="#FF33333D">
+                    <Label>Visual Studio</Label>
+                </WrapPanel>
+            </Expander>
+            <Expander Header="系统工具" Background="#FF101011" Foreground="#FF917E5D" Style="{DynamicResource ExpanderStyleLvl1}" FontSize="12">
+                <WrapPanel Background="#FF33333D">
+                    <Label>Visual Studio</Label>
+                </WrapPanel>
+            </Expander>
+
+        </StackPanel>
+    </Border>
 </Window>
