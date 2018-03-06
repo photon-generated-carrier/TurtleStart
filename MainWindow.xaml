@@ -14,12 +14,12 @@
             </Border>
             <Expander Header="编程工具" Background="#FF101011" Foreground="#FF917E5D" Style="{DynamicResource ExpanderStyleLvl1}" FontSize="12">
                 <WrapPanel Background="#FF33333D">
-                    <Label>Visual Studio</Label>
+                    <local:AppControl></local:AppControl>
                 </WrapPanel>
             </Expander>
             <Expander Header="系统工具" Background="#FF101011" Foreground="#FF917E5D" Style="{DynamicResource ExpanderStyleLvl1}" FontSize="12">
                 <WrapPanel Background="#FF33333D">
-                    <Label>Visual Studio</Label>
+                    <local:AppControl></local:AppControl>
                 </WrapPanel>
             </Expander>
 
